@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- VARIÁVEIS GLOBAIS ---
-    const API_URL = https://taskflowup2.onrender.com/api ;
+    const API_URL = 'https://taskflowup2.onrender.com/api' ;
     let currentUser = null;
     let allTasks = [];
     let currentFilter = 'all';
@@ -1275,6 +1275,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
 });
+
 
 
 
