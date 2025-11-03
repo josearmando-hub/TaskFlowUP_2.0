@@ -4,7 +4,7 @@
 CREATE TYPE user_role AS ENUM ('admin', 'funcionario');
 
 -- ==========================
--- TABELA: USERS
+-- TABELA: USERS testando
 -- (Deve ser criada primeiro, pois outras tabelas dependem dela)
 -- ==========================
 CREATE TABLE users (
@@ -103,4 +103,5 @@ CREATE TABLE chat_messages (
 -- VALUES ('admin', 'admin@email.com', '<hash>', '<salt>', 'admin');
 
 -- O "ALTER TABLE" do script original foi incorporado diretamente
+
 -- na criação da tabela "users" (coluna "job_title").
